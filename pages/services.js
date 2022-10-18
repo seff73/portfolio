@@ -66,7 +66,7 @@ export default function services() {
                     { /* Fourth Block*/ }
                     <div className='flex justify-center items-center cursor-pointer'>
                         <MdDeveloperBoard  className='w-10 h-10 bg-blue-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
-                        <h2 className='text-xl text-indigo-600 font-semibold '>
+                        <h2 className='text-xl text-indigo-600 font-semibold'>
                            Desing & Development 
                         </h2>
                     </div>
