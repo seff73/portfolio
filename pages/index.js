@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Footer from '../components/Footer';
 import NavBar from '../components/NavBar';
 import Clients from './clients';
 import Contact from './contact';
@@ -21,6 +22,7 @@ export default function Home() {
       <Work />
       <Clients />
       <Contact />
+      <Footer />
       
     </div>
   )
