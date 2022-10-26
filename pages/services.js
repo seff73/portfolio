@@ -19,7 +19,7 @@ export default function services() {
                     { /* First Block*/ }
                     <div className='flex justify-center items-center cursor-pointer'>
                         <GiCardboardBox className='w-10 h-10 bg-yellow-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
-                        <h2 className='text-xl text-indigo-600 font-semibold '>
+                        <h2 className='md:text-xl text-base text-indigo-600 font-semibold '>
                            Strategy & Direction 
                         </h2>
                     </div>
@@ -33,7 +33,7 @@ export default function services() {
                     { /* Second Block*/ }
                     <div className='flex justify-center items-center cursor-pointer'>
                         <HiColorSwatch className='w-10 h-10 bg-red-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
-                        <h2 className='text-xl text-indigo-600 font-semibold'>
+                        <h2 className='md:text-xl text-base text-indigo-600 font-semibold'>
                            Branding & Logo 
                         </h2>
                     </div>
@@ -52,7 +52,7 @@ export default function services() {
                     { /* Third Block*/ }
                     <div className='flex justify-center items-center cursor-pointer'>
                         <AiOutlineBlock className='w-10 h-10 bg-green-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
-                        <h2 className='text-xl text-indigo-600 font-semibold '>
+                        <h2 className='md:text-xl text-base text-indigo-600 font-semibold '>
                            Motion & Animation
                         </h2>
                     </div>
@@ -65,9 +65,9 @@ export default function services() {
                 <div className='flex flex-col justify-center items-center'>
                     { /* Fourth Block*/ }
                     <div className='flex justify-center items-center cursor-pointer'>
-                        <MdDeveloperBoard  className='w-10 h-10 bg-blue-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
-                        <h2 className='text-xl text-indigo-600 font-semibold'>
-                           Desing & Development 
+                        <MdDeveloperBoard  className='md:w-10 md:h-10 w-[1.6rem] h-[2.4rem] bg-blue-400 text-gray-100 m-3 p-1 shadow-xl rounded-md' />
+                        <h2 className='md:text-xl text-base text-indigo-600 font-semibold'>
+                           Developme 
                         </h2>
                     </div>
                     <p className='md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm'>

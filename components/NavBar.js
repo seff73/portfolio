@@ -8,7 +8,7 @@ export default function NavBar() {
   return (
     <div>
         <nav className='fixed z-20 bg-white w-full'>
-            <div className='w-fullb'>
+            <div className='w-full'>
                 <div className='flex items-center h-20 w-full'>
                     <div className='flex items-center sm:mx-10 md:mx-20 justify-between w-full'>
                         
