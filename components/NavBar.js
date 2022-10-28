@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Transition, transition } from '@headlessui/react';
+import React, { useRef, useState } from 'react';
+import { Transition } from '@headlessui/react';
 import { Link } from 'react-scroll';
 
 
@@ -102,16 +102,16 @@ export default function NavBar() {
                 leaveFrom='opacity-100 scale-100'
                 leaveTo='opacity-0 scale-95'
             >
-                {(ref) => (
+                {()=> (
                     <div className='md:hidden' id='mobile-menu'>
-                        <div ref={ref} className='bg-white mx-4 -mr-20 pt-4 pb-4 space-y-1'>
+                        <div ref={()=> React.createRef()} className='bg-white mx-4 -mr-20 pt-4 pb-4 space-y-1'>
                             <Link 
                                 href='/home' 
                                 activeClass='home' 
                                 to='home'
                                 smooth={true}
                                 offset={50}
-                                duration='500'
+                                duration={500}
                                 className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'
                             >
                                 Home
@@ -133,7 +133,7 @@ export default function NavBar() {
                                 to='work'
                                 smooth={true}
                                 offset={50}
-                                duration='500'
+                                duration={500}
                                 className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'
                             >
                                 Projects
@@ -144,21 +144,21 @@ export default function NavBar() {
                                 to='clients'
                                 smooth={true}
                                 offset={50}
-                                duration='500'
+                                duration={500}
                                 className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'
                             >
                                 Clients
                             </Link>
                             <Link 
-                                href='/contacts' 
-                                activeClass='contacts' 
-                                to='contacts'
+                                href='/contact' 
+                                activeClass='contact' 
+                                to='contact'
                                 smooth={true}
                                 offset={50}
-                                duration='500'
+                                duration={500}
                                 className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'
                             >
-                                Contacts
+                                Contact
                             </Link>
                             <Link 
                                 href='/hi' 
@@ -166,7 +166,7 @@ export default function NavBar() {
                                 to='hi'
                                 smooth={true}
                                 offset={50}
-                                duration='500'
+                                duration={500}
                                 className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'
                             >
                                 Say<span className='text-black'>hi</span>
