@@ -75,7 +75,7 @@ export default function services() {
                     <p className='md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm'>
                         Big Data, Intelligence Artificial, Web 3.0, Internet of Things, Cyber Security,
                         Hyperautomation, Machine Learning, Robotic Process Automation, Leadership,
-                        Blockchaing and SmartContracts
+                        Blockchain and SmartContracts
 
                     </p>
                 </div>

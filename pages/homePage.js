@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import heroImage from '../public/images/heroimage.jpg';
-import { Element } from 'react-scroll';
+import { Element, Link } from 'react-scroll';
 
 export default function homePage() {
   return (
@@ -34,8 +34,11 @@ export default function homePage() {
                     </p>
                     <a 
                         href='#' 
-                        className='font-semibold text-white md:mt-10 mt-5 pt-5 bg-indigo-900 rounded-md w-60 h-16 text-lg hover:bg-black'>
-                        See My Portfolio !
+                        className='font-semibold text-white md:mt-10 mt-5 pt-5 bg-indigo-900 rounded-md w-60 h-16 text-lg hover:bg-black'
+                    >
+                        <Link activeClass='services' to='services' smooth={true} offset={50} duration={500}>
+                            See My Portfolio !
+                        </Link>
                     </a>
                 </div>
             </div>

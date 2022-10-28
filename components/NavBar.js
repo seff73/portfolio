@@ -15,7 +15,9 @@ export default function NavBar() {
                         { /* //Section for Logo or brand name */ }
                         <div className='flex justify-center items-center flex-shrink-0 ml-10'>
                             <h1 className='font-bold text-xl cursor-pointer' >
-                                Stream<span className='text-blue-600'>line</span>
+                                <Link activeClass='home' to='home' smooth={true} offset={50} duration={500}>
+                                    Stream<span className='text-blue-600'>line</span>
+                                </Link>
                             </h1>
                         </div>
                         
@@ -33,7 +35,9 @@ export default function NavBar() {
                         { /* //Section for direct contact via email */}
                         <div className='flex justify-center items-center flex-shrink-0'>
                             <h1 className='font-semibold text-lg cursor-pointer hidden md:block'>
-                                Say<span className='text-blue-600'>hi</span>
+                                <Link activeClass='contact' to='contact' smooth={true} offset={50} duration={500}>
+                                    Say<span className='text-blue-600'>hi</span>
+                                </Link>
                             </h1>
                         </div>
                     </div>
@@ -161,9 +165,9 @@ export default function NavBar() {
                                 Contact
                             </Link>
                             <Link 
-                                href='/hi' 
-                                activeClass='hi' 
-                                to='hi'
+                                href='/contact' 
+                                activeClass='contact' 
+                                to='contact'
                                 smooth={true}
                                 offset={50}
                                 duration={500}
