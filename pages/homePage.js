@@ -32,14 +32,17 @@ export default function homePage() {
                         Development Back-end servers and RESTful APIs.
                         Positive attitude, strong work ethic, out-of-the-box thinking and high level of professional integrity.
                     </p>
-                    <a 
-                        href='#' 
+                    <Link 
+                        activeClass='services' 
+                        to='services' 
+                        smooth={true} 
+                        offset={50} 
+                        duration={500}
                         className='font-semibold text-white md:mt-10 mt-5 pt-5 bg-indigo-900 rounded-md w-60 h-16 text-lg hover:bg-black'
                     >
-                        <Link activeClass='services' to='services' smooth={true} offset={50} duration={500}>
-                            See My Portfolio !
-                        </Link>
-                    </a>
+                        See My Portfolio !
+                    
+                    </Link>
                 </div>
             </div>
         </div>
