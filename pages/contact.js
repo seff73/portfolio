@@ -60,18 +60,26 @@ export default function contact() {
         emailjs.send('service_zilmxnm', 'template_ieogudg', templateParams, 'k-w62nZD0xoIwA9Qn')
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
+                
                 setSuccessMsg(successBlock);
+                
+                setTemplateParams({
+                    name: '',
+                    email: '',
+                    subject: '',
+                    message: '',
+        
+                });
+
+                setSubmitBtnProps({
+                    className: 'mt-4 text-xl w-36 h-10 bg-indigo-900 opacity-50 text-white rounded-lg hover:bg-black',
+                    disabled: true,
+                });
+
             }, function(error) {
                 console.log('FAILED...', error);
                 setErrorMsg(errorBlock)
             });
-        setTemplateParams({
-            name: '',
-            email: '',
-            subject: '',
-            message: '',
-
-        });
     };
     
     return (
