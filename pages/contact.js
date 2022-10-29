@@ -134,7 +134,7 @@ export default function Contact() {
                     />
                 </div>
                 <div className='text-center'>
-                    <h3 className={successMsg}>Thank You! Your message was successfully sent!</h3>
+                    <h3 className={successMsg}>Your message was successfully sent!</h3>
                 </div>
                 <div className='text-center'>
                     <h3 className={errorMsg}>Sorry:( try again!</h3>
