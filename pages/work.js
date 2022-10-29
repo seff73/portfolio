@@ -6,10 +6,8 @@ import Videogames from '../public/images/videogames_app.jpg';
 import Four from '../public/images/4.jpg';
 import Five from '../public/images/5.png';
 import Six from '../public/images/6.jpg';
-import { useRouter } from 'next/router';
 
 export default function work() {
-    const router = useRouter();
   return (
     <Element id='work' name='work'>
         <div className='w-full my-20 h-auto flex flex-col justify-center items-center'>
