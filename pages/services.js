@@ -73,8 +73,8 @@ export default function services() {
                         </h2>
                     </div>
                     <p className='md:text-base text-gray-400 md:text-center sm:text-left sm:text-sm'>
-                        Big Data, Intelligence Artificial, Web 3.0, Internet of Things, Cyber Security,
-                        Hyperautomation, Machine Learning, Robotic Process Automation, Leadership,
+                        Big Data, Intelligence Artificial, Web 3.0, Cyber Security, Hyperautomation, 
+                        Machine Learning, Robotic Process Automation, Leadership,
                         Blockchain and SmartContracts
 
                     </p>

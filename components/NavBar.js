@@ -116,6 +116,7 @@ export default function NavBar() {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
+                                onClick={()=> setIsOpen(!isOpen)}
                                 className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'
                             >
                                 Home
@@ -126,7 +127,8 @@ export default function NavBar() {
                                 to='services'
                                 smooth={true}
                                 offset={50}
-                                duration='500'
+                                duration={500}
+                                onClick={()=> setIsOpen(!isOpen)}
                                 className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'
                             >
                                 Services
@@ -150,6 +152,7 @@ export default function NavBar() {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
+                                onClick={()=> setIsOpen(!isOpen)}
                                 className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'
                             >
                                 Clients
@@ -161,6 +164,7 @@ export default function NavBar() {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
+                                onClick={()=> setIsOpen(!isOpen)}
                                 className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'
                             >
                                 Contact
@@ -172,6 +176,7 @@ export default function NavBar() {
                                 smooth={true}
                                 offset={50}
                                 duration={500}
+                                onClick={()=> setIsOpen(!isOpen)}
                                 className='cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium'
                             >
                                 Say<span className='text-black'>hi</span>
