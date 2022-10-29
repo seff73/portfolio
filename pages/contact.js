@@ -96,7 +96,7 @@ export default function Contact() {
                             placeholder='Name'
                             value={templateParams.name}
                             onChange={handleChange}
-                            className='w-full mt-5 pb-1 pl-4 border-2 rounded-lg h-10 md:text-base text-base'
+                            className='w-full mt-5 pb-1 pl-4 pr-1 border-2 rounded-lg h-10 md:text-base text-base'
                         />
                     </div>
                     <div className='w-full'>
@@ -108,7 +108,7 @@ export default function Contact() {
                             autoComplete='email'
                             placeholder='Email'
                             onChange={handleEmail}
-                            className='w-full mt-5 ml-1 pb-1 pl-4 border-2 rounded-lg h-10 md:text-base text-base'
+                            className='w-full mt-5 ml-1 pb-1 pl-4 pr-1 border-2 rounded-lg h-10 md:text-base text-base'
                         />
                     </div>
                 </div>
@@ -119,7 +119,7 @@ export default function Contact() {
                         value={templateParams.subject}   
                         placeholder='Subject'
                         onChange={handleChange}
-                        className='mt-1 pb-1 pl-4 w-full rounded-lg text-blue-800 md:text-base text-base border-2 border-indigo-900h h-10' 
+                        className='mt-1 pb-1 pl-4 pr-1 w-full rounded-lg text-blue-800 md:text-base text-base border-2 border-indigo-900h h-10' 
                     />
                 </div>
                 <div className='md:w-[45%] w-[80%] mt-1'>
