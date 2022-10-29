@@ -16,7 +16,7 @@ export default function NavBar() {
                         <div className='flex justify-center items-center flex-shrink-0 ml-10'>
                             <Link activeClass='home' to='home' smooth={true} offset={50} duration={500}>
                                 <h1 className='font-bold text-xl cursor-pointer' >
-                                    Stream<span className='text-blue-600'>line</span>
+                                    Seff<span className='text-blue-600'>Team</span>
                                 </h1>
                             </Link>
                         </div>

@@ -38,7 +38,7 @@ export default function homePage() {
                         smooth={true} 
                         offset={50} 
                         duration={500}
-                        className='font-semibold text-white md:mt-10 mt-5 pt-5 bg-indigo-900 rounded-md w-60 h-16 text-lg hover:bg-black'
+                        className='font-semibold text-white md:mt-10 mt-5 pt-5 bg-indigo-900 rounded-md w-60 h-16 text-lg hover:bg-black cursor-pointer'
                     >
                         See My Portfolio !
                     
