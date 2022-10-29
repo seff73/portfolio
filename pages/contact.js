@@ -57,7 +57,7 @@ export default function contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.send('service_zilmxnm', 'template_ieogudg', templateParams, 'k-w62nZD0xoIwA9Qn')
+        emailjs.send(`${process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID}`, `${process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID}`, templateParams, `${process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY}`)
             .then(function(response) {
                 console.log('SUCCESS!', response.status, response.text);
                 
@@ -134,7 +134,7 @@ export default function contact() {
                     />
                 </div>
                 <div className='text-center'>
-                    <h3 className={successMsg}>Your message was send!</h3>
+                    <h3 className={successMsg}>Thank You! Your message was successfully sent!</h3>
                 </div>
                 <div className='text-center'>
                     <h3 className={errorMsg}>Sorry:( try again!</h3>
