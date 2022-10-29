@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Element } from 'react-scroll';
 import emailjs from '@emailjs/browser';
 
-export default function contact() {    
+export default function Contact() {    
     const [ templateParams, setTemplateParams ] = useState({
         name: '',
         email: '',
